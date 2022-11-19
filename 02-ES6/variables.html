@@ -1,0 +1,33 @@
+
+
+<!-- Les variables var peuvent être modifiées et redéclarées dans un contexte précis ;
+   les variables let peuvent être modifiées, mais pas redéclarées ;
+    et les variables const ne peuvent être ni redéclarées ni modifiées. -->
+
+
+
+<script>
+    var a = 5; // 5
+    var a = 7; // 3
+    console.log(a);
+    
+    let b =5 ;
+   
+    // let b = 3; // error 
+    console.log(b);
+
+
+
+    // Exemple  const 
+    
+    var myObject = {
+  un: 'a',
+  deux: 'b',
+  trois: "c"
+}
+const {un, deux, trois} = myObject;
+
+console.log(deux)
+// un = 'a', deux = 'b', trois = 'c'
+   
+    </script>

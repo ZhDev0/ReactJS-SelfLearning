@@ -1,0 +1,17 @@
+
+  .active {
+    color: blanchedalmond;
+    background-color: blue;
+    display: inline;
+  }
+
+  .div{
+    border: 5px outset gray;
+    background-color: lightblue;    
+    text-align: center;
+}
+.p{
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #999;
+}
