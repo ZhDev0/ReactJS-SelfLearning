@@ -3,7 +3,7 @@ import { useState } from "react";
 
 
 const PageUseState=()=>{
-    const [name , setName]  = useState("hicham");
+    const [name , setName]  = useState("Omar");
     
    const setData=()=>{
         setName('bilal')

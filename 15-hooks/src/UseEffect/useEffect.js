@@ -9,7 +9,7 @@ const PageUseEffect=()=>{
 
     useEffect(() => {
         
-        setName('hicham')
+        setName('Omar')
     });
 
     return(

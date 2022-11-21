@@ -16,7 +16,7 @@ const PageUseRef=()=>{
 
     useEffect(() => {
 
-        setName('hicham')
+        setName('Omar')
     });
 
     return(
